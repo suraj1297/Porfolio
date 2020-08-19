@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,700;0,800;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 10px;
+    background-color: #EDEEF0;
+}
+
+.logo {
+    font-size: 3em;
+    font-weight: 700;
+    color: #f05136;
+}
+
+.nav-link {
+    font-size: 1.8em;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-link:hover {
+    color: #f05136;
+}
+
+
+header div p {
+    font-size: 2.5em;
+    font-weight: 200;
+}
+
+h1,
+h3,
+h4 {
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 5em;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 4em;
+}
+
+h3 {
+    font-size: 2.5em;
+}
+
+h4 {
+    font-size: 1.8em;
+}
+
+.link-btn {
+    background-color: #f05136;
+    cursor: pointer;
+    color: white;
+    font-size: 1.8em;
+    font-weight: 200;
+    letter-spacing: 0.5;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 100;
+    padding: 7px;
+    border-radius: 5px;
+    border-color: black;
+
+}
+
+.link-btn:hover {
+    color: white;
+}
+
+
+#bio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bio img {
+    width: 200px;
+    height: 200px;
+    margin: 130px;
+}
+
+#bio article * {
+    margin: 20px;
+}
+
+.break {
+    display: block;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+#home {
+    background-color: black;
+    color: white;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#portfolio {
+    background: url(/assests/portfolio-background.svg);
+    color: white;
+    background-color: black;
+}
+
+#portfolio,
+#skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+
+hr {
+    width: 400px;
+}
+
+#portfolio div article {
+    background-color: white;
+    color: black;
+    height: 200px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+#portfolio div article p {
+    padding: 0 10px;
+}
+
+#portfolio div {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+    width: 100%;
+}
+
+#portfolio h3,
+hr,
+p {
+    margin-bottom: 30px;
+}
+
+#skills-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#skills-container ul {
+    list-style-type: none;
+}
+
+#skills li {
+    margin: 10px 0;
+    font-size: 1.3em;
+}
+
+#skills-container div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#skills h4 {
+    margin: 30px 0;
+}
+
+progress[value] {
+    height: 6px;
+    width: 200px;
+    -webkit-appearance: none;
+}
+
+progress[value]::-webkit-progress-bar {
+    background-color: grey;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25 inset);
+}
+
+::-webkit-progress-value {
+    background-color: #f05136;
+}
+
+#contact {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    line-height: 1.5em;
+    width: 350px;
+    border-color: black;
+    border-radius: 3px;
+    margin: 20px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    padding: 10px;
+}
+
+#contact form input:last-child {
+    margin-top: 30px;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
